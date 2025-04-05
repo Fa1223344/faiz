@@ -22,7 +22,6 @@ interface HackingProgress {
   selector: 'app-server-started-notification',
   templateUrl: './server-started-notification.component.html',
   styleUrls: ['./server-started-notification.component.scss'],
-  standalone: true,
   imports: [NgIf, MatCardModule, MatCardHeader, MatCardContent, TranslateModule, MatButtonModule, MatIconModule]
 })
 export class ServerStartedNotificationComponent implements OnInit {

@@ -48,7 +48,6 @@ export interface RandomFixes {
   templateUrl: './code-snippet.component.html',
   styleUrls: ['./code-snippet.component.scss'],
   host: { class: 'code-snippet' },
-  standalone: true,
   imports: [MatDialogTitle, MatDialogContent, MatTabGroup, MatTab, FlexModule, NgIf, CodeAreaComponent, TranslateModule, MatTabLabel, MatIconModule, CodeFixesComponent, MatDialogActions, MatCardModule, NgClass, ExtendedModule, MatFormFieldModule, MatLabel, MatInputModule, NgFor, FormsModule, MatIconButton, MatButtonModule, MatDialogClose]
 })
 export class CodeSnippetComponent implements OnInit {

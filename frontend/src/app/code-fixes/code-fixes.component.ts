@@ -10,7 +10,6 @@ import { NgFor, NgIf } from '@angular/common'
   selector: 'app-code-fixes',
   templateUrl: './code-fixes.component.html',
   styleUrls: ['./code-fixes.component.scss'],
-  standalone: true,
   imports: [NgFor, NgIf, NgxTextDiffModule]
 })
 export class CodeFixesComponent implements OnInit, DoCheck {

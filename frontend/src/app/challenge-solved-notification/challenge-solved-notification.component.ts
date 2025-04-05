@@ -36,7 +36,6 @@ interface ChallengeSolvedNotification {
   selector: 'app-challenge-solved-notification',
   templateUrl: './challenge-solved-notification.component.html',
   styleUrls: ['./challenge-solved-notification.component.scss'],
-  standalone: true,
   imports: [NgFor, MatCardModule, MatButtonModule, MatIconModule, ClipboardModule, NgIf, LowerCasePipe, TranslateModule]
 })
 export class ChallengeSolvedNotificationComponent implements OnInit {
